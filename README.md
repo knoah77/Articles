@@ -3,7 +3,8 @@ Notes and code from articles
 [link for how to create a good readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 # General Articles
-
+<details>
+  <summary>Steps to Become a Machine Learning Engineer</summary>
 ### [Steps to Become a Machine Learning Engineer](https://medium.com/cometheartbeat/7-steps-to-become-a-machine-learning-engineer-698cba0bc43c)
 
 **what is machine learning**
@@ -146,10 +147,11 @@ Notes and code from articles
 - CI-CD for Machine Learning
 - Git and GitHub
 - FastAPI
-
+</details>
 
 # Computer Vision
-### [Zero-shot image classification/segmentation/detection with CLIP](https://medium.com/@khjfsdu/zero-shot-image-classification-segmentation-detection-with-clip-b8eec06582e3)
+<details>
+  <summary>### [Zero-shot image classification/segmentation/detection with CLIP](https://medium.com/@khjfsdu/zero-shot-image-classification-segmentation-detection-with-clip-b8eec06582e3)</summary>
 
 - OpenAI CLIP model process images the same way as text
   - Treats image as a swquence of non-overlapping patches
@@ -214,7 +216,7 @@ Notes and code from articles
       - No model training
     - Better for cases where you can tolerate a patentially higher error rate
     - Do need training for higher accuracy requirements
-
+</details>
 
 
 # Large Language models
