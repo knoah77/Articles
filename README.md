@@ -180,7 +180,7 @@ Notes and code from articles
       - generates the texts embedding of the classes
         - picks the class with the embedding closest to the image embedding
      - [pseudo-code](https://github.com/openai/CLIP#zero-shot-prediction)
-       '''
+       ```
         # List of possible classes (text from above)
         classes = ["credit card", "driver's license", "passport"]
         
@@ -197,7 +197,7 @@ Notes and code from articles
 
         # Pick the most similar class for the image
         similarity = (100.0 * image_features @ text_features.T).softmax(dim=-1)
-       '''
+       ```
   - Image Segmentation
     - CLIPSeg Given
       - An image
