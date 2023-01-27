@@ -149,7 +149,71 @@ Notes and code from articles
 
 
 ## Computer Vision
+###[Zero-shot image classification/segmentation/detection with CLIP](https://medium.com/@khjfsdu/zero-shot-image-classification-segmentation-detection-with-clip-b8eec06582e3)
 
+- OpenAI CLIP model process images the same way as text
+  - Treats image as a swquence of non-overlapping patches
+    - Each patch is a visual token
+    - Making an image a sequence of tokens
+     - Can be processed using transformer
+  - Training data is image caption pairs
+    - sourced from the web
+  - Converts image/text to vector embeddings
+    - Uses Contrastive loss
+  - Generate image and text embeddings in the same vector space
+    - allows computing of simularity of 
+      - an image
+      - a piece of text
+    - does this using cosine simularity between
+      - image embedding and text embedding
+  - converting to a vector embedding allows for AI by lowering data collectiopn and model training
+  - Allows 0-shot prediction for
+    - image classification
+    - image segmentation
+    - Object detection
+  - Image Classification
+    - Model is give
+      - an image
+      - Text (list of possible classes)
+    - Model out puts a simularity to one of the possible classes
+      - generates the image embedding
+      - generates the texts embedding of the classes
+        - picks the class with the embedding closest to the image embedding
+     - [pseudo-code](https://github.com/openai/CLIP#zero-shot-prediction)
+       '''
+        # List of possible classes (text from above)
+        classes = ["credit card", "driver's license", "passport"]
+        
+        # Loading the model
+        model, preprocess = clip.load('ViT-B/32')
+        
+        # Preprocessing the data (image and then text)
+        image_input = preprocess(image)
+        text_inputs = torch.cat([clip.tokenize(f"a photo of a {c}") for c in classes])
+        
+        # embedding the image and then the text
+        image_features = model.encode_image(image_input)
+        text_features = model.encode_text(text_inputs)
+
+        # Pick the most similar class for the image
+        similarity = (100.0 * image_features @ text_features.T).softmax(dim=-1)
+       '''
+  - Image Segmentation
+    - CLIPSeg Given
+      - An image
+      - Text
+    - Can highlight in an image where that image representation of the text is in the given images
+    - [Link](https://huggingface.co/blog/clipseg-zero-shot)
+  - Image Detection
+    -  OWL-ViT does the above but returns a bounding box rather than outlines/shading
+    - [Link](https://huggingface.co/spaces/adirik/OWL-ViT)
+  - Final Thoughs
+    - Speeds up time to create a model as training data is not needed
+      - No data collection
+      - No data labeling
+      - No model training
+    - Better for cases where you can tolerate a patentially higher error rate
+    - Do need training for higher accuracy requirements
 
 ## Large Language models
 
