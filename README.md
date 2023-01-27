@@ -149,7 +149,7 @@ Notes and code from articles
 
 
 ## Computer Vision
-###[Zero-shot image classification/segmentation/detection with CLIP](https://medium.com/@khjfsdu/zero-shot-image-classification-segmentation-detection-with-clip-b8eec06582e3)
+### [Zero-shot image classification/segmentation/detection with CLIP](https://medium.com/@khjfsdu/zero-shot-image-classification-segmentation-detection-with-clip-b8eec06582e3)
 
 - OpenAI CLIP model process images the same way as text
   - Treats image as a swquence of non-overlapping patches
