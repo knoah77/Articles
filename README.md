@@ -1,7 +1,7 @@
-# Articles
+# Articles Notes
 Notes and code from articles
-[link for how to create a good readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-[Nested Dropdowns](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d#gistcomment-2694183)
+- [link for how to create a good readme](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Nested Dropdowns](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d#gistcomment-2694183)
 
 # General Articles
 <details>
