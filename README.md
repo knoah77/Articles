@@ -232,3 +232,47 @@ Notes and code from articles
 
 
 # Synthetic Data
+
+# Side Hustles
+<details>
+  <summary>8 Stupidly Simple Programming Side Hustle That You Can Start in 2023 — No BS!</summary>
+https://medium.com/geekculture/8-stupidly-simple-programming-side-hustle-that-you-can-start-in-2023-no-bs-93ec748d73ee
+1. Technical Content Writing
+   - Pros
+     - better understand the subject and identify any gaps in your knowledge
+     - Make Connections
+     - Can make money
+   - How to get started
+     - Where
+       - LinkedIn, 
+       - Twitter
+       - Medium
+       - Dev.to
+       - Hashnode
+      - Minimula amount of time
+2. Building Online Products Using ChatGPT
+   - examples
+     - AI image Generator
+     - Motivational Quote Generator
+   - Benefits
+     - Get job based off of project
+     - More connections
+  
+3. Selling APIs
+   - Create a way for different systems to communicate with each other and exchange data
+   - Used in Finace, healthcare, e-commerence
+   - How to Get started [Link](https://youtu.be/GK4Pl-GmPHk)
+   - Can sell on RapidAI
+   - Can sell Directly to clients 
+4. Earning With Figma
+   - 
+5. Earning with Canva
+   - 
+6. Using Blockchain Technology
+   - 
+7. Become an Online Consultant
+   - 
+8. Selling a Programming Product
+   - 
+</details>
+
