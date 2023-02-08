@@ -229,6 +229,76 @@ Notes and code from articles
 
 
 # Large Language models
+<details>
+  <summary>I tried making ChatGPT with GPT-3</summary>
+
+### [I tried making ChatGPT with GPT-3](https://medium.com/geekculture/i-tried-making-chatgpt-with-gpt-3-4f0ef976d8c7)
+
+- Difference between gpt-3 and chatgpt
+  - ChatGPT remembers what prompt it received and what answer it gave
+  - GPT-3 Does not, each generation is unrelated
+- goal for the following code
+  - Make GPT-3 aware of its past generations and prompts
+  - Make the code fast
+  - Make it so that it doesn’t exceed the accepted prompt length
+  - sudo code for process
+   ```
+    
+    # 1. input1 
+    # 2. add input1 to model
+    # 3. show output1
+    # 4. input(2.....n)=take value of input1 take output1 
+    # 5. add the input2 to the model 
+    # 6. Show output(2...n)
+    # 7. Loop to 4.
+  ```
+ Setting up the enviroment
+ 
+```
+pip install openai
+```
+
+actual code 
+```
+import openai 
+  
+# initial input
+input_one=input("Enter your prompt: ")
+  
+# adding the inputs to the AI
+c=input_one 
+  
+for i in range(0,1000):
+  # running the GPT-3 API
+  openai.api_key = "Your API Key"
+  
+  # Printing the input
+  print(c)
+  
+  # model
+  response = openai.Completion.create(
+    engine="text-curie-001",
+    prompt=c,
+    temperature=0.7 ,
+    max_tokens=150,
+    top_p=1.0,
+    frequency_penalty=0.0,
+    presence_penalty=0.0
+  )
+  
+   # store and print the response
+   b=response
+   print("\n")
+   print(response.choices[0].text)#output
+  
+  # the info generated and tell the AI later what it did a step before
+  input_two="This was your last prompt: "+input_one+". This was the response you gave to the prompt:          "+response.choices[0].text+" remember this and answer the prompt given: "
+    input_three=input("Enter your prompt: ")
+    input_four=input_two+" "+input_three
+    c=input_four
+```
+  
+</details>
 
 
 # Synthetic Data
