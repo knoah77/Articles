@@ -273,18 +273,27 @@ https://medium.com/geekculture/8-stupidly-simple-programming-side-hustle-that-yo
    - Can sell Directly to clients 
 
 4. Earning With Figma
-   - 
+   - UI/UX design
+   - Free lancing 
+     - Making designs for people directly
+   - Selling design templates
+     - Platforms such as Creative Market or Envato
+   - Creating/Selling courses
+     - platforms such as Udemy or Skillshare
+   - Design/Sell Digital Products
+     - items such as tshirts, stickers, phone cases 
+     - Platforms such as Redbubble or society6
 
 5. Earning with Canva
-   - 
+   - website design
 
 6. Using Blockchain Technology
-   - 
+   - building a block chain
 
 7. Become an Online Consultant
    - 
 
 8. Selling a Programming Product
-   - 
+   - platforms such as Gumroad
 </details>
 
