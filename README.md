@@ -233,6 +233,11 @@ Notes and code from articles
 
 # Synthetic Data
 
+
+# Microcontrollers
+
+
+
 # Side Hustles
 <details>
   <summary>8 Stupidly Simple Programming Side Hustle That You Can Start in 2023 — No BS!</summary>
