@@ -152,6 +152,21 @@ Notes and code from articles
 - FastAPI
 </details>
 
+
+<details>
+  <summary>Google’s Sparrow Will Kill ChatGPT — It is Microsoft Teams vs. Slack All Over Again</summary>
+[Google’s Sparrow Will Kill ChatGPT — It is Microsoft Teams vs. Slack All Over Again](https://medium.com/mlearning-ai/building-your-own-mini-chatgpt-b2e9716ab11](https://entreprenal.com/googles-sparrow-will-kill-chatgpt-it-is-microsoft-teams-vs-slack-all-over-again-da8c5a69c58f)
+  
+
+  
+</details>
+
+
+
+
+
+
+
 # Computer Vision
 <details>
   <summary>Zero-shot image classification/segmentation/detection with CLIP</summary>
@@ -228,6 +243,15 @@ Notes and code from articles
 </details>
 
 
+
+
+
+
+
+
+
+
+
 # Large Language models
 <details>
   <summary>I tried making ChatGPT with GPT-3</summary>
@@ -300,11 +324,58 @@ for i in range(0,1000):
   
 </details>
 
+<details>
+  <summary>Building Your Own Mini ChatGPT</summary>
+[Building Your Own Mini ChatGPT](https://medium.com/mlearning-ai/building-your-own-mini-chatgpt-b2e9716ab119)
+  
+
+  
+</details>
+
+<details>
+  <summary>Google’s Sparrow Will Kill ChatGPT — It is Microsoft Teams vs. Slack All Over Again</summary>
+[Google’s Sparrow Will Kill ChatGPT — It is Microsoft Teams vs. Slack All Over Again](https://medium.com/mlearning-ai/building-your-own-mini-chatgpt-b2e9716ab11](https://entreprenal.com/googles-sparrow-will-kill-chatgpt-it-is-microsoft-teams-vs-slack-all-over-again-da8c5a69c58f)
+  
+
+  
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Synthetic Data
 
 
+
+
+
+
+
+
+
+
+
+
 # Microcontrollers
+
+
+
+
+
+
+
+
+
+
 
 
 
