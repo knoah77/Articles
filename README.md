@@ -245,6 +245,8 @@ Notes and code from articles
 
 <details>
   <summary>Top 10 Object Detection Models of 2023</summary>
+  
+  
   ### [Top 10 Object Detection Models in 2023](https://medium.com/thelatestai/top-10-object-detection-models-in-2023-235acbc7d8b0)
   
  
