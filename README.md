@@ -242,6 +242,94 @@ Notes and code from articles
   - Do need training for higher accuracy requirements
 </details>
 
+  ### [Top 10 Object Detection Models in 2023](https://medium.com/thelatestai/top-10-object-detection-models-in-2023-235acbc7d8b0)
+  
+  
+  1. Yolov7
+     - Pros
+       - Very fast and efficient object detection
+       - High accuracy on large datasets
+       - Runs on low-end devices
+     - Cons
+       - Can struggle with small object detection
+       - Requires a large dataset for optimal performance
+  2. EfficientDet
+     - Pros
+       - State-of-the-art performance on several benchmark datasets
+       - Efficient and accurate object detection
+       - Can be trained on large datasets
+     - Cons
+       - Requires a large number of computational resources
+       - Can be challenging to train on smaller datasets
+  3. RetinaNet
+     - Pros
+       - Improved accuracy in object detection
+       - Efficient and can run on low-end devices
+       - Easy to train and use
+     - Cons
+       - Can struggle with small object detection
+       - Requires a large amount of data for optimal performance
+  4. Faster R-CNN
+     - Pros
+       - High accuracy in object detection
+       - Effective for object detection in images and videos
+       - Easy to train and use
+     - Cons
+       - Can be computationally expensive
+       - Can be slow when detecting objects in real-time
+  5. Mask R-CNN
+     - Pros
+       - High accuracy in object detection and instance segmentation
+       - Can generate pixel-level masks for each detected object
+       - Easy to train and use
+     - Cons
+       - Can be computationally expensive
+       - Can be slow when detecting objects in real-time
+  6. CenterNet
+     - Pros
+       - State-of-the-art performance on several benchmark datasets
+       - High accuracy and efficiency in object detection
+       - Can handle occluded and small objects
+     - Cons
+       - Can be computationally expensive
+       - Can struggle with highly overlapping objects
+  7. DETR
+     - Pros
+       - High accuracy and simplicity in object detection
+       - Can handle highly overlapping objects
+       - No anchor boxes or non-maximum suppression required
+     - Cons
+       - Can be computationally expensive
+       - Requires a large amount of data for optimal performance
+  8. Cascade R-CNN
+     - Pros
+       - State-of-the-art performance on several benchmark datasets
+       - High accuracy in object detection
+       - Can handle small and occluded objects
+     - Cons
+       - Can be computationally expensive
+       - Requires a large amount of data for optimal performance
+  9. SSD (Single Shot MultiBox Detector)
+     - Pros
+       - High accuracy and efficiency in object detection
+       - Real-time object detection on low-end devices
+       - Easy to train and use
+     - Cons
+       - Can struggle with small object detection
+       - Can require a large dataset for optimal performance
+  10. FCOS (Fully Convolutional One-Stage Object Detection)
+     - Pros
+       - State-of-the-art performance on several benchmark datasets
+       - High accuracy and efficiency in object detection
+       - No anchor boxes or non-maximum suppression required
+     - Cons
+       - Can be computationally expensive
+       - Can require a large dataset for optimal performance
+  
+  
+  
+  
+  
 
 
 
